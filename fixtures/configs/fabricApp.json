@@ -1,0 +1,8 @@
+{
+    "clientorgs":["org1", "org2"],
+    "org1":{
+        "orgid":"org1",
+        "user":"Admin",
+        "networkconfigpath" : "/etc/hyperledger/fabric/sdkconfigurations/configs/transactional_config.yaml"
+    }
+}

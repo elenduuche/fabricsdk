@@ -1,0 +1,10 @@
+{
+    "civiclycc":{
+        "chaincodeId": "civiclycc",
+        "version": "1.0",
+        "chaincodePath" : "com.zoneswitch/zoneswitch.chaincode/zstpcc",
+        "user":"Admin",
+        "networkConfigPath" : "/etc/hyperledger/fabric/sdkconfigurations/configs/transactional_config.yaml",
+        "upgrade":true
+    }
+}

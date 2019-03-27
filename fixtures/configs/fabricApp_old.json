@@ -1,0 +1,13 @@
+{
+    "civiclycc":{
+        "chaincodeid": "civiclycc",
+        "version": "1.0",
+        "chaincodepath" : "com.zoneswitch/zoneswitch.chaincode/zstpcc",
+        "user":"Admin",
+        "networkconfigpath" : "/etc/hyperledger/fabric/sdkconfigurations/configs/transactional_config.yaml",
+        "policy": "OR('Org1MSP.member','Org2MSP.member')",
+        "policytype":"ANY",
+        "policysigners": ["Org1", "Org2"],
+        "policysignerrole": "peer"
+    }
+}
